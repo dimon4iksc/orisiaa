@@ -1,0 +1,38 @@
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none
+}
+
+.header {
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 0.7;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+}
+
+.header-name {
+}
+
+.header-year {
+}
+
+.header-growth {
+}
