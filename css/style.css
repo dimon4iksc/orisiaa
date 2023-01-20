@@ -3,20 +3,79 @@
 }
 
 .link{
-    text-decoration: none
+    text-decoration: none;
 }
+
+.body{
+}
+
+/*------------header-----------------*/
 
 .header {
+    background-color:  #1E2939;
 }
 
-.title {
+.header-title {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 600;
     font-size: 60px;
     line-height: 0.7;
     letter-spacing: 0.05em;
-    color: #303030;
+    color: #FFFFFF;
+
+    margin-left: 420px;
+}
+
+.header-img-list {
+}
+
+.header-img-item {
+    display: center;
+    margin-left: 500px;
+}
+
+.header-text-list {
+    padding: 0;
+}
+
+.header-text-item {
+}
+
+.header-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    margin-left: 420px;
+}
+
+.header-year {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    padding: 0;
+    margin-left: 600px;
+}
+
+.header-growth {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    margin-left: 600px;
 }
 
 .header-list {
@@ -25,14 +84,135 @@
 .header-item {
 }
 
-.header-link {
+.header-link-insta:hover {
+    color:orangered;
 }
 
-.header-name {
+.header-link-insta{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0.66;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    padding: 0;
+    margin-left: 560px;
 }
 
-.header-year {
+.header-link-telegram:hover{
+    color: lightskyblue;
 }
 
-.header-growth {
+.header-link-telegram{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0.66;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    padding: 0;
+    margin-left: 560px;
+    
+}
+    
+
+                /*-------main--------*/
+
+.main {
+    background-color: #F7F7F7;
+}
+
+.main-car {
+}
+
+.main-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 0.7;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.main-list {
+}
+
+.main-item {
+}
+
+.main-after {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color:#303030;
+}
+
+.footer{
+    background-color:  #1E2939;
+}
+
+.footer-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 0.7;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    margin-left: 35px;
+}
+
+.footer-list {
+}
+
+.footer-item {
+}
+
+.footer-insta:hover{
+    color:orangered  ;
+}
+
+.footer-insta {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0.66;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer-telegram {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0.66;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer-telegram:hover{
+    color: lightskyblue;
+}
+
+.footer-pre-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    margin-left: 40px;
 }
