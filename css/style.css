@@ -23,14 +23,15 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 
-    margin-left: 420px;
+    margin-left: 45px;
 }
 
 .header-img-list {
+    display: flex;
+    flex-shrink: 0;
 }
 
 .header-img-item {
-    margin-left: 500px;
 }
 
 .header-text-list {
@@ -49,7 +50,7 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 
-    margin-left: 420px;
+    margin-left: 42px;
 }
 
 .header-year {
@@ -139,6 +140,7 @@
 }
 
 .main-list {
+    display: flex;
 }
 
 .main-item {
